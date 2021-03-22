@@ -1,0 +1,136 @@
+* {
+  /*scroll-behavior: smooth;*/
+}
+
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #108db8;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  background: #108db8;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.splash-page {
+  background-color: #f2f2f2;
+  color: #1a406a;
+  height:100vh;
+  background-image: url(./assets/placeholder-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.splash-page .content {
+  width: 550px;
+  height:200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -275px;
+}
+
+.splash-page .gcx-logo {
+  width: 100%;
+  max-width:400px;
+  margin-top: 40px;
+}
+
+.logo-img {
+  max-width: 240px;
+  margin-bottom: 60px;
+}
+
+.cta-hero {
+  background-color: #f2f2f2;
+  padding: 60px 0 80px;
+  color: #1a406a;
+}
+
+.cta-hero .heading-zone {
+  max-width: 555px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #266ef2;
+}
+
+.cta-hero .highlight {
+  color: #0078d4;
+}
+
+.cta-hero button,
+.splash-page .btn-primary {
+  background-color: #266ef2;
+  border-radius: 2rem;
+}
+
+.step-area {
+  padding: 80px 0;
+}
+
+.step-content {
+  padding-left: 25px;
+}
+
+.step-content p {
+  color: #1a406a;
+}
+
+.step-section hr {
+  max-width: 240px;
+  border-top: 2px solid rgba(0,0,0,.1);
+}
+
+.onboarding-section h2,
+.onboarding-section p {
+  color:  #1a406a;
+}
+.onboarding-section button {
+  background-color: #266ef2;
+  border-radius: 2rem;
+}
+.onboarding-section {
+  padding: 50px;
+}
+
+footer {
+  color: white;
+  background-color: #266ef2;
+  padding: 80px 0;
+}
+
+footer a,
+footer a:hover {
+  color: #fff;
+}
+
+@media (max-width: 575px) {
+  .order-xs-1 {
+      order: 1;
+  }
+  .order-xs-12 {
+      order: 12;
+  }
+}
