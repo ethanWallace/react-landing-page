@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'components/Router'
 
-document.title = "gcx-gce.gc.ca";
+//document.title = "gcx-gce.gc.ca";
 
 import gcxLogo from '../assets/gcx-gce.png'
 

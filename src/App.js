@@ -5,7 +5,6 @@ import { Link, Router, Redirect } from 'components/Router'
 
 import Home from "./pages/home";
 import Index from "./pages/index";
-import NotFound from "./pages/NotFound";
 
 import './app.css'
 
@@ -23,7 +22,6 @@ function App() {
             <Home path="/home" lang="en-us" />
             <Home path="/accueil" lang="fr-ca" />
             <Index path="/" />
-            <NotFound default to="/" />
           </Router>
         </React.Suspense>
       </div>

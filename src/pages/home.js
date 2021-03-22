@@ -14,8 +14,8 @@ class Home extends React.Component {
 
     var lang = i18n[this.props.lang];
 
-    document.documentElement.lang = this.props.lang;
-    document.title = lang.title;
+    //document.documentElement.lang = this.props.lang;
+    //document.title = lang.title;
 
     return (
       <Fragment>
